@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital_H&J</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    
+    <div class="registeration container-fluid" >
+        <div class="above_reg">
+            <h2 id="reg_h2" >WELCOME TO H & J</h2>
+        </div>
+        <div class="row below_reg">
+            <div class=" col-md-4 col-sm-6  below_reg1">
+                <h3 id="reg_h3">Register</h3>
+                <form onsubmit="" action="index.html" class="needs-validation" novalidate >
+                  <div class="form-group">
+                        <!-- <label for="fullname">Full Name</label> -->
+                        <input type="text" name="username" class="form-control" id="username" aria-describedby="emailHelp" placeholder='Username' required>
+                        <div class="huss" style="display: none;">
+                            Please correct username.
+                          </div>  
+                    </div>
+                    <div class="form-group ">
+                        <!-- <label for="email">Email address</label> -->
+                        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" required>
+                        <div class="huss_email" style="display: none;">
+                          Please choose valid email.
+                        </div>   
+                          
+                        
+                            
+                           
+
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group ">
+                        <!-- <label for="Password1">Password</label> -->
+                        <input type="password" name="password" class="form-control" id="Password1" placeholder="Password" required>
+                        <div class="huss_pass" style="display: none;">
+                            Please choose a correct password.
+                          </div>  
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                            Your password must be 8-20 characters long, contain letters and numbers.
+                          </small>
+                      </div>
+                      
+                      <div class="form-group ">
+                        <!-- <label for="Password2">Repeat Password</label> -->
+                        <input type="password" name="password" class="form-control" id="Password2" placeholder="Repeat Password" required>
+                        <div class="huss_repeat" style="display: none;">
+                            Please repeat a password.
+                          </div>  
+                    </div>
+                      <div class="form-group form-check ">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label" for="exampleCheck1">Agree to terms and conditions</label>
+                      </div>
+                      <div class="agree" style="display: none;">
+                        You must agree to the terms and values.
+                      </div>
+                      <div class="bottom_reg">
+                      <button type="submit" class="btn btn-success sign_up">Sign Up</button><br>
+                      <small>already have an account ?<a href="">Log In</a></small>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="static/src/main.js" ></script>
+</body>
+</html>
